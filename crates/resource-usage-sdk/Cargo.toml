@@ -1,0 +1,14 @@
+[package]
+name = "resource-usage-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Collect and print Soroban/Stellar resource usage statistics."
+
+[dependencies]
+hex = "0.4"
+soroban-client = "0.5.3"
+stellar-strkey = "0.0.15"
+tokio = { version = "1.43.0", features = ["full", "macros"] }
+futures = "0.3"
+thiserror = "1"
+comfy-table = { version = "7", features = ["tty"] }

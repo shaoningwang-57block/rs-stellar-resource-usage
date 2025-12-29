@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "crates/resource-usage-sdk"
+]
+resolver = "2"
